@@ -3,6 +3,7 @@
   "version": "1.2.24",
   "description": "mongoose gridfs on top of gridfs-stream",
   "main": "index.js",
+  "types": "index.d.ts",
   "scripts": {
     "test": "NODE_ENV=test grunt test",
     "docs": "doxdox 'lib/**/*.js' -p package.json -l markdown -o DOCUMENTATION.md"
@@ -42,6 +43,8 @@
   },
   "devDependencies": {
     "@lykmapipo/mongoose-test-helpers": ">=0.7.34",
+    "@types/mongodb": "^3.3.14",
+    "@types/mongoose": "^5.5.43",
     "async": ">=3.1.0",
     "body-parser": "^1.19.0",
     "chai": "^4.2.0",
